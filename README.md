@@ -157,14 +157,15 @@
     </td>
     <td width="58%" valign="top">
 
-### **Project Name**
+### **Wanderlust**
 
 <img src="https://img.shields.io/badge/Live-00DC82?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/Full--Stack-FF0080?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/SaaS-7928CA?style=flat-square&labelColor=000000"/>
 
-A premium full-stack platform delivering [core value proposition]. Motion-first UX, real-time data layer, scalable Node backend.
+A premium full-stack travel platform crafted for discovering unique stays, unforgettable experiences, and seamless adventures.
 
-**Stack** &nbsp;`React` `Node.js` `MongoDB` `GSAP` `Tailwind`  
-**Highlights** &nbsp;Real-time sync · JWT auth · Stripe payments · Animated UI
+**Stack** &nbsp; `React` `Node.js` `Express.js` `MongoDB` `TailwindCSS` `GSAP`
+
+**Highlights** &nbsp; Seamless booking flow · Secure authentication · Interactive destination discovery · Smooth animations · Fully responsive design
 
 <br/>
 
