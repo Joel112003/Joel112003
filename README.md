@@ -59,20 +59,6 @@ I architect **clean MERN systems** and obsess over how an app *feels* in motion.
 Open to building **SaaS**, **dashboards**, **AI tools**, and **frontend-heavy apps** with serious craft.
 
 </td>
-<td width="45%" valign="top">
-
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" alt="coding"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="900" alt="line"/>
-</div>
-
 
 <!-- ══════════════════════ STACK ══════════════════════ -->
 
