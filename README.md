@@ -169,8 +169,8 @@ A premium full-stack travel platform crafted for discovering unique stays, unfor
 
 <br/>
 
-<a href="#"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
-<a href="#"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
+<a href="https://wander-lust-zeta-orpin.vercel.app/"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
+<a href="https://github.com/Joel112003/WanderLust"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
 
 </td>
   </tr>
