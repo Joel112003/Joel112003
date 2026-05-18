@@ -1,681 +1,396 @@
+New palette: #FF0080 (electric pink) · #7928CA (royal violet) · #0070F3 (electric blue) · #00DC82 (aurora green) on pure black — the signature Vercel/Linear gradient that screams premium.
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;600;700;800&display=swap');
-
-  :root {
-    --cyan: #00F0FF;
-    --pink: #FF006E;
-    --purple: #7B2CBF;
-    --bg: #0D1117;
-    --bg2: #0a0e14;
-    --surface: #111820;
-    --surface2: #161d27;
-    --border: rgba(255,255,255,0.06);
-    --border-glow: rgba(0,240,255,0.15);
-    --text: #E6EDF3;
-    --muted: #8B949E;
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 13px;
-    line-height: 1.6;
-    overflow-x: hidden;
-  }
-
-  /* ── HERO ── */
-  .hero {
-    position: relative;
-    padding: 52px 32px 44px;
-    text-align: center;
-    background: linear-gradient(180deg, #060c14 0%, #0D1117 100%);
-    border-bottom: 1px solid var(--border);
-    overflow: hidden;
-  }
-
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: -60px; left: 50%; transform: translateX(-50%);
-    width: 600px; height: 200px;
-    background: radial-gradient(ellipse, rgba(0,240,255,0.08) 0%, transparent 70%);
-    pointer-events: none;
-  }
-
-  .hero-eyebrow {
-    font-size: 10px;
-    letter-spacing: 0.25em;
-    color: var(--cyan);
-    text-transform: uppercase;
-    margin-bottom: 14px;
-    opacity: 0.7;
-  }
-
-  .hero-name {
-    font-family: 'Syne', sans-serif;
-    font-size: 52px;
-    font-weight: 800;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #ffffff 0%, #a0c4ff 50%, var(--cyan) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 12px;
-  }
-
-  .hero-sub {
-    font-size: 12px;
-    color: var(--muted);
-    letter-spacing: 0.05em;
-    margin-bottom: 28px;
-  }
-
-  .hero-sub span {
-    color: rgba(255,255,255,0.35);
-    margin: 0 10px;
-  }
-
-  /* ── BADGE ROW ── */
-  .badge-row {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: wrap;
-    margin-bottom: 24px;
-  }
-
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 5px 12px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    border: 1px solid;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .badge-cyan {
-    background: rgba(0,240,255,0.06);
-    border-color: rgba(0,240,255,0.3);
-    color: var(--cyan);
-  }
-  .badge-cyan:hover { background: rgba(0,240,255,0.12); border-color: rgba(0,240,255,0.6); }
-
-  .badge-pink {
-    background: rgba(255,0,110,0.06);
-    border-color: rgba(255,0,110,0.3);
-    color: var(--pink);
-  }
-  .badge-pink:hover { background: rgba(255,0,110,0.12); border-color: rgba(255,0,110,0.6); }
-
-  .badge-purple {
-    background: rgba(123,44,191,0.08);
-    border-color: rgba(123,44,191,0.35);
-    color: #b57bee;
-  }
-  .badge-purple:hover { background: rgba(123,44,191,0.15); border-color: rgba(123,44,191,0.65); }
-
-  .badge-white {
-    background: rgba(255,255,255,0.04);
-    border-color: rgba(255,255,255,0.12);
-    color: rgba(255,255,255,0.6);
-  }
-  .badge-white:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.25); }
-
-  /* ── CTA BUTTONS ── */
-  .cta-row {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    padding: 9px 20px;
-    border-radius: 5px;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    border: 1px solid;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.25s;
-  }
-
-  .btn-primary {
-    background: var(--cyan);
-    border-color: var(--cyan);
-    color: #000;
-  }
-  .btn-primary:hover { background: #33f5ff; box-shadow: 0 0 20px rgba(0,240,255,0.35); }
-
-  .btn-outline-pink {
-    background: transparent;
-    border-color: rgba(255,0,110,0.5);
-    color: var(--pink);
-  }
-  .btn-outline-pink:hover { background: rgba(255,0,110,0.08); border-color: var(--pink); box-shadow: 0 0 16px rgba(255,0,110,0.2); }
-
-  .btn-outline {
-    background: transparent;
-    border-color: rgba(255,255,255,0.12);
-    color: rgba(255,255,255,0.55);
-  }
-  .btn-outline:hover { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.25); color: #fff; }
-
-  /* ── DIVIDER ── */
-  .divider {
-    height: 1px;
-    background: linear-gradient(90deg, transparent 0%, rgba(0,240,255,0.2) 20%, rgba(123,44,191,0.3) 50%, rgba(255,0,110,0.2) 80%, transparent 100%);
-    margin: 0;
-  }
-
-  /* ── SECTION ── */
-  .section {
-    padding: 40px 32px;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .section-label {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 28px;
-  }
-
-  .section-num {
-    font-size: 10px;
-    color: var(--cyan);
-    opacity: 0.6;
-    letter-spacing: 0.15em;
-  }
-
-  .section-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: -0.01em;
-  }
-
-  .section-line {
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
-
-  /* ── ABOUT GRID ── */
-  .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    align-items: start;
-  }
-
-  .code-block {
-    background: #0a0e14;
-    border: 1px solid rgba(0,240,255,0.1);
-    border-radius: 8px;
-    padding: 18px;
-    font-size: 12px;
-    line-height: 1.7;
-  }
-
-  .code-block .k { color: #ff7b72; }
-  .code-block .s { color: #a5d6ff; }
-  .code-block .v { color: var(--cyan); }
-  .code-block .c { color: var(--muted); }
-  .code-block .p { color: rgba(255,255,255,0.4); }
-
-  .about-text {
-    font-size: 12.5px;
-    color: var(--muted);
-    line-height: 1.8;
-  }
-  .about-text p { margin-bottom: 14px; }
-  .about-text strong { color: #c9d1d9; font-weight: 600; }
-
-  /* ── STACK TABLE ── */
-  .stack-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .stack-table td {
-    padding: 10px 14px;
-    border-bottom: 1px solid var(--border);
-    vertical-align: middle;
-  }
-  .stack-table td:first-child {
-    font-size: 10px;
-    letter-spacing: 0.12em;
-    color: var(--muted);
-    width: 110px;
-    white-space: nowrap;
-  }
-  .stack-table tr:last-child td { border-bottom: none; }
-
-  .pill-group { display: flex; flex-wrap: wrap; gap: 6px; }
-
-  .pill {
-    padding: 3px 10px;
-    border-radius: 3px;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    border: 1px solid;
-  }
-
-  .pill-cyan { background: rgba(0,240,255,0.05); border-color: rgba(0,240,255,0.2); color: #7aecff; }
-  .pill-pink { background: rgba(255,0,110,0.05); border-color: rgba(255,0,110,0.2); color: #ff6ea8; }
-  .pill-purple { background: rgba(123,44,191,0.07); border-color: rgba(123,44,191,0.25); color: #c084fc; }
-  .pill-green { background: rgba(63,185,80,0.05); border-color: rgba(63,185,80,0.2); color: #7ee787; }
-  .pill-amber { background: rgba(240,160,0,0.05); border-color: rgba(240,160,0,0.2); color: #ffa657; }
-  .pill-white { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.1); color: rgba(255,255,255,0.45); }
-
-  /* ── PROJECT CARDS ── */
-  .projects-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-  }
-
-  .project-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 18px;
-    transition: all 0.25s;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .project-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    opacity: 0;
-    transition: opacity 0.25s;
-  }
-
-  .project-card.card-cyan::before { background: linear-gradient(90deg, transparent, var(--cyan), transparent); }
-  .project-card.card-pink::before { background: linear-gradient(90deg, transparent, var(--pink), transparent); }
-  .project-card.card-purple::before { background: linear-gradient(90deg, transparent, #b57bee, transparent); }
-  .project-card.card-green::before { background: linear-gradient(90deg, transparent, #7ee787, transparent); }
-
-  .project-card:hover { border-color: rgba(255,255,255,0.1); transform: translateY(-1px); }
-  .project-card:hover::before { opacity: 1; }
-
-  .project-num {
-    font-size: 9px;
-    letter-spacing: 0.2em;
-    margin-bottom: 8px;
-  }
-  .num-cyan { color: var(--cyan); }
-  .num-pink { color: var(--pink); }
-  .num-purple { color: #b57bee; }
-  .num-green { color: #7ee787; }
-
-  .project-name {
-    font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 6px;
-  }
-
-  .project-desc {
-    font-size: 11px;
-    color: var(--muted);
-    line-height: 1.6;
-    margin-bottom: 12px;
-  }
-
-  .project-pills { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
-
-  .project-pill {
-    padding: 2px 7px;
-    border-radius: 2px;
-    font-size: 9px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    color: rgba(255,255,255,0.4);
-  }
-
-  .project-links { display: flex; gap: 7px; }
-
-  .proj-btn {
-    padding: 5px 11px;
-    border-radius: 3px;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    border: 1px solid;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-
-  .proj-btn-live-cyan { background: rgba(0,240,255,0.07); border-color: rgba(0,240,255,0.25); color: var(--cyan); }
-  .proj-btn-live-cyan:hover { background: rgba(0,240,255,0.14); border-color: rgba(0,240,255,0.5); }
-
-  .proj-btn-live-pink { background: rgba(255,0,110,0.07); border-color: rgba(255,0,110,0.25); color: var(--pink); }
-  .proj-btn-live-pink:hover { background: rgba(255,0,110,0.14); border-color: rgba(255,0,110,0.5); }
-
-  .proj-btn-live-purple { background: rgba(123,44,191,0.08); border-color: rgba(123,44,191,0.3); color: #b57bee; }
-  .proj-btn-live-purple:hover { background: rgba(123,44,191,0.15); border-color: rgba(123,44,191,0.55); }
-
-  .proj-btn-live-green { background: rgba(63,185,80,0.07); border-color: rgba(63,185,80,0.25); color: #7ee787; }
-  .proj-btn-live-green:hover { background: rgba(63,185,80,0.14); border-color: rgba(63,185,80,0.5); }
-
-  .proj-btn-gh { background: transparent; border-color: rgba(255,255,255,0.1); color: rgba(255,255,255,0.35); }
-  .proj-btn-gh:hover { border-color: rgba(255,255,255,0.25); color: rgba(255,255,255,0.65); }
-
-  .status-dot {
-    display: inline-block;
-    width: 5px; height: 5px;
-    border-radius: 50%;
-    margin-right: 5px;
-    vertical-align: middle;
-  }
-  .dot-active { background: #7ee787; box-shadow: 0 0 6px #7ee787; }
-  .dot-wip { background: #ffa657; box-shadow: 0 0 6px #ffa657; }
-
-  /* ── CONNECT ── */
-  .connect-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: flex-start;
-  }
-
-  .social-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    padding: 8px 16px;
-    border-radius: 5px;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    border: 1px solid;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s;
-    font-family: 'JetBrains Mono', monospace;
-  }
-
-  .social-li { background: rgba(10,102,194,0.07); border-color: rgba(10,102,194,0.3); color: #4f9fea; }
-  .social-li:hover { background: rgba(10,102,194,0.14); border-color: rgba(10,102,194,0.6); box-shadow: 0 0 14px rgba(10,102,194,0.15); }
-
-  .social-em { background: rgba(234,67,53,0.07); border-color: rgba(234,67,53,0.3); color: #f78070; }
-  .social-em:hover { background: rgba(234,67,53,0.14); border-color: rgba(234,67,53,0.6); box-shadow: 0 0 14px rgba(234,67,53,0.15); }
-
-  .social-gh { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.12); color: rgba(255,255,255,0.55); }
-  .social-gh:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.25); color: #fff; }
-
-  .social-ig { background: rgba(228,64,95,0.07); border-color: rgba(228,64,95,0.25); color: #f4758a; }
-  .social-ig:hover { background: rgba(228,64,95,0.14); border-color: rgba(228,64,95,0.5); }
-
-  .social-pi { background: rgba(230,0,35,0.07); border-color: rgba(230,0,35,0.25); color: #f47070; }
-  .social-pi:hover { background: rgba(230,0,35,0.14); border-color: rgba(230,0,35,0.5); }
-
-  .social-lc { background: rgba(255,161,22,0.07); border-color: rgba(255,161,22,0.25); color: #ffa657; }
-  .social-lc:hover { background: rgba(255,161,22,0.14); border-color: rgba(255,161,22,0.5); }
-
-  /* ── FOOTER ── */
-  .footer {
-    padding: 28px 32px;
-    text-align: center;
-    background: var(--bg2);
-  }
-  .footer-text {
-    font-size: 11px;
-    color: rgba(255,255,255,0.18);
-    letter-spacing: 0.08em;
-  }
-  .footer-sig { color: rgba(0,240,255,0.35); }
-
-  .dot-sep { color: rgba(255,255,255,0.12); margin: 0 8px; }
-</style>
-
-<div style="background:#0D1117; min-height:100vh;">
-
-  <!-- HERO -->
-  <div class="hero">
-    <div class="hero-eyebrow">// full-stack engineer · vadodara, india</div>
-    <div class="hero-name">JOEL KUNJUMON</div>
-    <div class="hero-sub">
-      React · Node · MongoDB<span>◆</span>Motion · Architecture · Systems
-    </div>
-
-    <div class="badge-row">
-      <span class="badge badge-cyan">👁 Profile Views</span>
-      <span class="badge badge-pink">⭐ GitHub Stars</span>
-      <span class="badge badge-purple">◈ Followers</span>
-      <span class="badge badge-white">● Open to Work</span>
-    </div>
-
-    <div class="cta-row">
-      <span class="btn btn-primary">↗ Portfolio</span>
-      <span class="btn btn-outline-pink">✉ Email Me</span>
-      <span class="btn btn-outline">❖ LinkedIn</span>
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <!-- ABOUT -->
-  <div class="section">
-    <div class="section-label">
-      <span class="section-num">01</span>
-      <span class="section-title">About</span>
-      <div class="section-line"></div>
-    </div>
-    <div class="about-grid">
-      <div class="code-block">
-        <span class="k">const</span> <span class="v">joel</span> <span class="p">= {</span><br/>
-        &nbsp;&nbsp;<span class="c">role:</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">"Full-Stack Engineer"</span><span class="p">,</span><br/>
-        &nbsp;&nbsp;<span class="c">focus:</span>&nbsp;&nbsp;&nbsp;<span class="s">"Motion · Architecture · UX"</span><span class="p">,</span><br/>
-        &nbsp;&nbsp;<span class="c">stack:</span>&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">"React"</span><span class="p">,</span> <span class="s">"Node"</span><span class="p">,</span> <span class="s">"MongoDB"</span><span class="p">],</span><br/>
-        &nbsp;&nbsp;<span class="c">building:</span>&nbsp;<span class="p">[</span><span class="s">"SaaS"</span><span class="p">,</span> <span class="s">"Dashboards"</span><span class="p">,</span> <span class="s">"AI Tools"</span><span class="p">],</span><br/>
-        &nbsp;&nbsp;<span class="c">ethos:</span>&nbsp;&nbsp;&nbsp;<span class="s">"Pixel-precision frontends,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;systems that scale."</span><br/>
-        <span class="p">}</span>
-      </div>
-      <div class="about-text">
-        <p>I architect <strong>clean MERN systems</strong> and obsess over how an app <em>feels</em> in motion. I care about the small details — easing curves, layout rhythm, request waterfalls — because those separate a project from a product.</p>
-        <p>Currently building <strong>VaultBet</strong> (provably fair casino platform) and <strong>MeetConnect</strong> (WebRTC video app), while pursuing my MCA at Parul University.</p>
-        <p>Open to <strong>full-time roles</strong>, freelance collabs, and interesting product conversations.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- STACK -->
-  <div class="section">
-    <div class="section-label">
-      <span class="section-num">02</span>
-      <span class="section-title">Tech Stack</span>
-      <div class="section-line"></div>
-    </div>
-    <table class="stack-table">
-      <tr>
-        <td>Frontend</td>
-        <td><div class="pill-group">
-          <span class="pill pill-cyan">React</span>
-          <span class="pill pill-cyan">Next.js</span>
-          <span class="pill pill-cyan">Vite</span>
-          <span class="pill pill-cyan">TypeScript</span>
-          <span class="pill pill-cyan">Tailwind</span>
-          <span class="pill pill-cyan">SASS</span>
-          <span class="pill pill-cyan">Redux</span>
-        </div></td>
-      </tr>
-      <tr>
-        <td>Backend</td>
-        <td><div class="pill-group">
-          <span class="pill pill-pink">Node.js</span>
-          <span class="pill pill-pink">Express</span>
-          <span class="pill pill-pink">Socket.IO</span>
-          <span class="pill pill-pink">JWT</span>
-          <span class="pill pill-pink">REST APIs</span>
-        </div></td>
-      </tr>
-      <tr>
-        <td>Database</td>
-        <td><div class="pill-group">
-          <span class="pill pill-green">MongoDB</span>
-          <span class="pill pill-green">Redis</span>
-          <span class="pill pill-green">MySQL</span>
-        </div></td>
-      </tr>
-      <tr>
-        <td>Motion · 3D</td>
-        <td><div class="pill-group">
-          <span class="pill pill-purple">GSAP</span>
-          <span class="pill pill-purple">Three.js</span>
-          <span class="pill pill-purple">Framer</span>
-          <span class="pill pill-purple">Lenis</span>
-        </div></td>
-      </tr>
-      <tr>
-        <td>Cloud · DevOps</td>
-        <td><div class="pill-group">
-          <span class="pill pill-amber">AWS</span>
-          <span class="pill pill-amber">Vercel</span>
-          <span class="pill pill-amber">Render</span>
-          <span class="pill pill-amber">GitHub Actions</span>
-        </div></td>
-      </tr>
-      <tr>
-        <td>Tools</td>
-        <td><div class="pill-group">
-          <span class="pill pill-white">Git</span>
-          <span class="pill pill-white">Postman</span>
-          <span class="pill pill-white">Figma</span>
-          <span class="pill pill-white">VS Code</span>
-          <span class="pill pill-white">Linux</span>
-        </div></td>
-      </tr>
-    </table>
-  </div>
-
-  <!-- PROJECTS -->
-  <div class="section">
-    <div class="section-label">
-      <span class="section-num">03</span>
-      <span class="section-title">Featured Work</span>
-      <div class="section-line"></div>
-    </div>
-    <div class="projects-grid">
-
-      <div class="project-card card-cyan">
-        <div class="project-num num-cyan">01 · CASINO PLATFORM</div>
-        <div class="project-name">VaultBet</div>
-        <div class="project-desc"><span class="status-dot dot-wip"></span>In Progress &nbsp;·&nbsp; 5 provably fair games with real-time crash engine, JWT + Redis auth, HMAC-SHA256 sessions.</div>
-        <div class="project-pills">
-          <span class="project-pill">React</span><span class="project-pill">Node.js</span><span class="project-pill">Socket.IO</span><span class="project-pill">Redis</span><span class="project-pill">MongoDB</span>
-        </div>
-        <div class="project-links">
-          <span class="proj-btn proj-btn-live-cyan">↗ Live Demo</span>
-          <span class="proj-btn proj-btn-gh">GitHub</span>
-        </div>
-      </div>
-
-      <div class="project-card card-pink">
-        <div class="project-num num-pink">02 · WEBRTC APP</div>
-        <div class="project-name">MeetConnect</div>
-        <div class="project-desc"><span class="status-dot dot-wip"></span>In Progress &nbsp;·&nbsp; P2P video calling, Socket.IO signaling, custom DateTimePicker, meeting link dashboard.</div>
-        <div class="project-pills">
-          <span class="project-pill">React</span><span class="project-pill">WebRTC</span><span class="project-pill">Socket.IO</span><span class="project-pill">Node.js</span>
-        </div>
-        <div class="project-links">
-          <span class="proj-btn proj-btn-live-pink">↗ Live Demo</span>
-          <span class="proj-btn proj-btn-gh">GitHub</span>
-        </div>
-      </div>
-
-      <div class="project-card card-purple">
-        <div class="project-num num-purple">03 · TRAVEL PLATFORM</div>
-        <div class="project-name">WanderLust</div>
-        <div class="project-desc"><span class="status-dot dot-active"></span>Active &nbsp;·&nbsp; Airbnb-like platform with Mapbox, Razorpay payments, Cloudinary, OAuth, multi-step listing UI.</div>
-        <div class="project-pills">
-          <span class="project-pill">MERN</span><span class="project-pill">Mapbox</span><span class="project-pill">Razorpay</span><span class="project-pill">Cloudinary</span>
-        </div>
-        <div class="project-links">
-          <span class="proj-btn proj-btn-live-purple">↗ Live Demo</span>
-          <span class="proj-btn proj-btn-gh">GitHub</span>
-        </div>
-      </div>
-
-      <div class="project-card card-green">
-        <div class="project-num num-green">04 · CODE COLLAB</div>
-        <div class="project-name">CodeDrop</div>
-        <div class="project-desc"><span class="status-dot dot-active"></span>Shipped &nbsp;·&nbsp; Real-time code editor with Monaco, AI explanations, version history, permission-based editing.</div>
-        <div class="project-pills">
-          <span class="project-pill">React</span><span class="project-pill">Monaco Editor</span><span class="project-pill">Socket.IO</span><span class="project-pill">Node.js</span>
-        </div>
-        <div class="project-links">
-          <span class="proj-btn proj-btn-live-green">↗ Live Demo</span>
-          <span class="proj-btn proj-btn-gh">GitHub</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- CONNECT -->
-  <div class="section">
-    <div class="section-label">
-      <span class="section-num">06</span>
-      <span class="section-title">Let's Connect</span>
-      <div class="section-line"></div>
-    </div>
-    <div class="connect-grid">
-      <span class="social-btn social-li">❖ LinkedIn</span>
-      <span class="social-btn social-em">✉ Email</span>
-      <span class="social-btn social-gh">⬡ GitHub</span>
-      <span class="social-btn social-lc">◈ LeetCode</span>
-      <span class="social-btn social-ig">◎ Instagram</span>
-      <span class="social-btn social-pi">◇ Pinterest</span>
-    </div>
-    <div style="margin-top: 18px; padding: 14px 18px; background: rgba(0,240,255,0.03); border: 1px solid rgba(0,240,255,0.1); border-radius: 5px; font-size: 11px; color: var(--muted);">
-      Open to <span style="color:var(--cyan)">full-time roles</span>, freelance, collaborations, and serious product conversations.
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    <div class="footer-text">
-      <span class="footer-sig">// signed, Joel Kunjumon</span>
-      <span class="dot-sep">·</span>
-      Built with craft
-      <span class="dot-sep">·</span>
-      Shipped with care
-      <span class="dot-sep">·</span>
-      <span class="footer-sig">see you in the next deploy ↗</span>
-    </div>
-  </div>
+<!-- ╔══════════════════════════════════════════════════════════════════════╗
+     ║   JOEL KUNJUMON · GITHUB PROFILE                                     ║
+     ║   Palette: #FF0080 · #7928CA · #0070F3 · #00DC82 · #000000           ║
+     ║   Style:   Premium · Cinematic · Awwwards-grade                      ║
+     ║   Edit:    look for // EDIT                                          ║
+     ╚══════════════════════════════════════════════════════════════════════╝ -->
 
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=300&section=header&text=JOEL%20KUNJUMON&fontSize=85&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Engineering%20cinematic%20web%20experiences&descSize=20&descAlignY=58" width="100%" alt="header"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Bricolage+Grotesque&weight=700&size=26&duration=2800&pause=700&color=FF0080&center=true&vCenter=true&width=820&height=60&lines=Full-Stack+Engineer.+Motion+Designer.;Clean+architecture.+Cinematic+motion.;React+%E2%80%A2+Node+%E2%80%A2+Mongo+%E2%80%A2+GSAP+%E2%80%A2+Three.js;I+build+web+experiences+that+feel+inevitable." alt="typing"/>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Joel112003&label=PROFILE+VIEWS&color=FF0080&style=for-the-badge" alt="views"/>
+&nbsp;
+<img src="https://img.shields.io/github/followers/Joel112003?label=FOLLOWERS&style=for-the-badge&color=7928CA&labelColor=000000" alt="followers"/>
+&nbsp;
+<img src="https://img.shields.io/github/stars/Joel112003?label=STARS&style=for-the-badge&color=0070F3&labelColor=000000" alt="stars"/>
+
+<br/><br/>
+
+<a href="https://github.com/Joel112003">
+  <img src="https://img.shields.io/badge/%E2%9E%9C_PORTFOLIO-View_Live-FF0080?style=for-the-badge&labelColor=000000" alt="portfolio"/>
+</a>
+&nbsp;
+<a href="mailto:joelkunjumon75@gmail.com">
+  <img src="https://img.shields.io/badge/%E2%9C%89_HIRE_ME-Get_in_Touch-00DC82?style=for-the-badge&labelColor=000000" alt="hire"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/joelkunjumon">
+  <img src="https://img.shields.io/badge/%E2%9C%A6_CONNECT-LinkedIn-0070F3?style=for-the-badge&labelColor=000000" alt="linkedin"/>
+</a>
+
+<br/><br/>
+
+<!-- Animated neon line -->
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="rainbow line"/>
+
+</div>
+
+
+<!-- ═══════════════════ ABOUT ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,20&height=70&section=header&text=ABOUT&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" alt="about"/>
+
+</div>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="55%" valign="top">
+
+> ### Hey, I'm Joel.
+>
+> I architect **clean full-stack systems** and obsess over how an app *feels* in motion. The easing curve, the request waterfall, the spacing rhythm — that's where craft lives.
+>
+> I'm focused on building **SaaS platforms**, **dashboards**, and **AI tools** with the kind of polish that makes people stop scrolling.
+>
+> **Currently:** sharpening Node architecture, MongoDB performance, and integrating GSAP into production flows.
+>
+> &nbsp;
+>
+> 🎯 &nbsp; **Open to** &nbsp;·&nbsp; Freelance &nbsp;·&nbsp; Collabs &nbsp;·&nbsp; Full-time roles  
+> 🌎 &nbsp; **Based in** &nbsp;·&nbsp; India · Available worldwide  
+> ⚡ &nbsp; **Off-duty** &nbsp;·&nbsp; Awwwards rabbit holes · Clash Royale
+
+</td>
+<td width="45%" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" alt="coding"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="line"/>
+</div>
+
+
+<!-- ═══════════════════ STACK ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=20,24&height=70&section=header&text=TECH%20STACK&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" alt="stack"/>
+
+<br/>
+
+<i>The tools I reach for when shipping serious work</i>
+
+<br/><br/>
+
+<table>
+  <tr>
+    <td align="center" width="180"><b>FRONTEND</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,tailwind,sass,redux&theme=dark" alt="frontend"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>BACKEND</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,graphql,prisma&theme=dark" alt="backend"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>DATABASE</b></td>
+    <td><img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis&theme=dark" alt="db"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>MOTION &amp; 3D</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=threejs&theme=dark" height="48" alt="three"/>
+      <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" alt="gsap"/>
+      <img src="https://img.shields.io/badge/Framer-FF0080?style=for-the-badge&logo=framer&logoColor=white" alt="framer"/>
+      <img src="https://img.shields.io/badge/Lenis-000000?style=for-the-badge&logoColor=white" alt="lenis"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>CLOUD &amp; DEVOPS</b></td>
+    <td><img src="https://skillicons.dev/icons?i=aws,vercel,netlify,docker,githubactions&theme=dark" alt="cloud"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>TOOLS</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux,bash&theme=dark" alt="tools"/></td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="line"/>
+</div>
+
+
+<!-- ═══════════════════ PROJECTS ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=24,12&height=70&section=header&text=FEATURED%20WORK&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" alt="work"/>
+
+<br/>
+
+<i>A selection of builds where engineering met craft</i>
+
+</div>
+
+<br/>
+
+<!-- PROJECT 01 -- // EDIT -->
+<table>
+  <tr>
+    <td width="42%">
+      <img src="https://placehold.co/640x380/000000/FF0080?text=PROJECT+ONE&font=raleway" width="100%" alt="p1"/>
+    </td>
+    <td width="58%" valign="top">
+
+### **Project Name**
+
+<img src="https://img.shields.io/badge/Live-00DC82?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/Full--Stack-FF0080?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/SaaS-7928CA?style=flat-square&labelColor=000000"/>
+
+A premium full-stack platform delivering [core value proposition]. Motion-first UX, real-time data layer, scalable Node backend.
+
+**Stack** &nbsp;`React` `Node.js` `MongoDB` `GSAP` `Tailwind`  
+**Highlights** &nbsp;Real-time sync · JWT auth · Stripe payments · Animated UI
+
+<br/>
+
+<a href="#"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
+<a href="#"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
+
+</td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- PROJECT 02 -->
+<table>
+  <tr>
+    <td width="58%" valign="top">
+
+### **Project Name**
+
+<img src="https://img.shields.io/badge/In_Progress-FFA116?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/AI-00DC82?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/SaaS-7928CA?style=flat-square&labelColor=000000"/>
+
+AI-powered [product type] with cinematic UX, intelligent automation, and a clean modular architecture built for scale.
+
+**Stack** &nbsp;`Next.js` `Express` `MongoDB` `OpenAI` `Three.js`  
+**Highlights** &nbsp;AI integration · 3D visuals · Analytics · Multi-tenant
+
+<br/>
+
+<a href="#"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
+<a href="#"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
+
+</td>
+    <td width="42%">
+      <img src="https://placehold.co/640x380/000000/7928CA?text=PROJECT+TWO&font=raleway" width="100%" alt="p2"/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- PROJECT 03 -->
+<table>
+  <tr>
+    <td width="42%">
+      <img src="https://placehold.co/640x380/000000/0070F3?text=PROJECT+THREE&font=raleway" width="100%" alt="p3"/>
+    </td>
+    <td width="58%" valign="top">
+
+### **Project Name**
+
+<img src="https://img.shields.io/badge/Live-00DC82?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/Animation-FF0080?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/Frontend-0070F3?style=flat-square&labelColor=000000"/>
+
+Frontend-heavy interactive experience pushing GSAP and Three.js into a real-world product flow with cinematic transitions.
+
+**Stack** &nbsp;`React` `GSAP` `Three.js` `Tailwind`  
+**Highlights** &nbsp;Scroll-driven motion · WebGL scenes · 60fps · Responsive
+
+<br/>
+
+<a href="#"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
+<a href="#"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
+
+</td>
+  </tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/Joel112003?tab=repositories">
+    <img src="https://img.shields.io/badge/%E2%9E%9C_All_Repositories-Explore-FF0080?style=for-the-badge&labelColor=000000" alt="all"/>
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="line"/>
+</div>
+
+
+<!-- ═══════════════════ FOCUS ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,24&height=70&section=header&text=CURRENT%20FOCUS&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" alt="focus"/>
+
+<br/>
+
+<table>
+  <tr>
+    <td align="center" width="33%" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="60" alt="learn"/>
+
+### LEARNING
+<sub><i>Going deeper</i></sub>
+
+Advanced React Patterns  
+Node.js Architecture  
+MongoDB Performance
+
+</td>
+    <td align="center" width="33%" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/216122003-d18e1c25-7e21-4cc0-b5dd-77d4d4d8a18b.png" width="60" alt="build"/>
+
+### BUILDING
+<sub><i>Shipping forward</i></sub>
+
+Premium Portfolio  
+Full-Stack SaaS  
+Motion Systems
+
+</td>
+    <td align="center" width="33%" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/216122065-2f9d8c0a-3553-4b53-8ce0-f8da06dd75b1.png" width="60" alt="explore"/>
+
+### EXPLORING
+<sub><i>Looking ahead</i></sub>
+
+AI &amp; LLM Integration  
+System Design  
+Open Source
+
+</td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="line"/>
+</div>
+
+
+<!-- ═══════════════════ STATS ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=20,12&height=70&section=header&text=GITHUB%20STATS&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" alt="stats"/>
+
+<br/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Joel112003&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=FF0080&icon_color=00DC82&text_color=FAFAFA&bg_color=000000" alt="stats"/>
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=Joel112003&hide_border=true&background=000000&stroke=7928CA&ring=FF0080&fire=00DC82&currStreakLabel=FF0080&sideLabels=FAFAFA&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="streak"/>
+
+<br/><br/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel112003&layout=compact&hide_border=true&title_color=FF0080&text_color=FAFAFA&bg_color=000000&langs_count=8" alt="langs"/>
+<img height="180" src="https://leetcard.jacoblin.cool/Joel2003?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=12" alt="leetcode"/>
+
+<br/><br/>
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Joel112003&bg_color=000000&color=FF0080&line=00DC82&point=7928CA&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="activity"/>
+
+<br/><br/>
+
+### CONTRIBUTION SNAKE
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="snake"/>
+</picture>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="line"/>
+</div>
+
+
+<!-- ═══════════════════ CONNECT ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=24,20&height=70&section=header&text=LET%E2%80%99S%20CONNECT&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" alt="connect"/>
+
+<br/>
+
+<i>Open to collaborations, freelance, and serious product conversations</i>
+
+<br/><br/>
+
+<a href="mailto:joelkunjumon75@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="email"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/joelkunjumon"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="linkedin"/></a>
+&nbsp;
+<a href="https://github.com/Joel112003"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="github"/></a>
+&nbsp;
+<a href="https://leetcode.com/u/Joel2003/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=000000" alt="leetcode"/></a>
+&nbsp;
+<a href="https://instagram.com/dietcokeesexual"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000" alt="ig"/></a>
+&nbsp;
+<a href="https://in.pinterest.com/Joel112003/"><img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white&labelColor=000000" alt="pin"/></a>
+
+<br/><br/>
+
+<a href="mailto:joelkunjumon75@gmail.com">
+  <img src="https://img.shields.io/badge/%E2%9E%9C_OPEN_TO_OPPORTUNITIES-Let%E2%80%99s_build_something_great-FF0080?style=for-the-badge&labelColor=000000" alt="cta"/>
+</a>
+
+</div>
+
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,12&height=160&section=footer&text=Built%20with%20craft%20%E2%97%87%20Shipped%20with%20care&fontSize=22&fontColor=ffffff&animation=twinkling&fontAlignY=72" width="100%" alt="footer"/>
+
+<div align="center">
+<sub><i>signed, Joel Kunjumon &nbsp;·&nbsp; see you in the next deploy ↗</i></sub>
 </div>
