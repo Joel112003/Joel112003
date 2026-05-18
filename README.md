@@ -18,7 +18,7 @@
 
 <br/><br/>
 
-<a href="https://github.com/Joel112003">
+<a href="https://joelcodes.me/">
   <img src="https://img.shields.io/badge/%E2%9E%9C_PORTFOLIO-View_Live-FF0080?style=for-the-badge&labelColor=000000" alt="portfolio"/>
 </a>
 &nbsp;
@@ -183,19 +183,20 @@ A premium full-stack travel platform crafted for discovering unique stays, unfor
   <tr>
     <td width="58%" valign="top">
 
-### **Project Name**
+### **MeetConnect**
 
 <img src="https://img.shields.io/badge/In_Progress-FFA116?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/AI-00DC82?style=flat-square&labelColor=000000"/> <img src="https://img.shields.io/badge/SaaS-7928CA?style=flat-square&labelColor=000000"/>
 
-AI-powered [product type] with cinematic UX, intelligent automation, and a clean modular architecture built for scale.
+A modern real-time communication platform with immersive UX, seamless collaboration, and scalable full-stack architecture built for meaningful connections.
 
-**Stack** &nbsp;`Next.js` `Express` `MongoDB` `OpenAI` `Three.js`  
-**Highlights** &nbsp;AI integration · 3D visuals · Analytics · Multi-tenant
+**Stack** &nbsp; `React.js` `Node.js` `Express.js` `MongoDB` `Socket.io` `TailwindCSS`
+
+**Highlights** &nbsp; Real-time messaging · Video calling · Secure authentication · Responsive UI · Scalable architecture
 
 <br/>
 
-<a href="#"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
-<a href="#"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
+<a href="https://meet-connect-psi.vercel.app/"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
+<a href="https://github.com/Joel112003/MeetConnect"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
 
 </td>
     <td width="42%">
@@ -225,7 +226,7 @@ Frontend-heavy interactive experience pushing GSAP and Three.js into a real-worl
 
 <br/>
 
-<a href="#"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
+<a href="https://code-forge-two.vercel.app/"><img src="https://img.shields.io/badge/%E2%86%97_Live_Demo-FF0080?style=for-the-badge&labelColor=000000"/></a>
 <a href="#"><img src="https://img.shields.io/badge/%E2%9C%A6_Source-Code-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a>
 
 </td>
