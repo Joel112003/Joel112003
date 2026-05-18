@@ -1,237 +1,287 @@
-Here's the refined version — tighter, more cinematic, premium-only. Removed: quote widget, Spotify, mermaid timeline, redundant emojis, and dev clutter. Upgraded: typography hierarchy, animations, dividers, layout flow.
-
-<!-- ╔══════════════════════════════════════════════════════════════════════╗
-     ║   JOEL KUNJUMON · GITHUB PROFILE README                              ║
-     ║   Cyberpunk · Glass · Premium Dark                                   ║
-     ║   Palette: #00F0FF · #FF006E · #7B2CBF · #0D1117                     ║
-     ║   Edit markers: // EDIT                                              ║
-     ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-
-<!-- ══════════════════════ HERO ══════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                    JOEL KUNJUMON — README.md                   -->
+<!--         Customize: Replace [YOUR_*] placeholders below         -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:7B2CBF,100:FF006E&height=280&section=header&text=JOEL%20KUNJUMON&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%A2%20Motion%20Designer%20%E2%80%A2%20Systems%20Builder&descSize=18&descAlignY=60&descAlign=50" width="100%" alt="header"/>
+<!-- ── HERO BANNER ── -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:0d1117,100:0a0a0a&height=200&section=header&text=JOEL%20KUNJUMON&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%94%20Building%20at%20the%20edge%20of%20design%20%26%20code&descAlignY=58&descSize=15&descColor=888888" width="100%" />
+
+<!-- ── TYPING EFFECT ── -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=300&size=18&pause=1200&color=FFFFFF&center=true&vCenter=true&width=600&lines=MERN+Stack+Engineer;Animation-First+Frontend+Developer;Clean+Architecture+Advocate;Building+scalable+SaaS+%26+real-time+apps;Turning+ideas+into+engineered+products" alt="Typing SVG" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=780&height=50&lines=I+build+web+experiences+that+feel+inevitable.;Clean+architecture.+Cinematic+motion.+Production+ready.;React+%E2%80%A2+Node+%E2%80%A2+MongoDB+%E2%80%A2+GSAP+%E2%80%A2+Three.js" alt="typing"/>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=Joel112003&label=PROFILE+VIEWS&color=00F0FF&style=for-the-badge" alt="views"/>
-<img src="https://img.shields.io/github/followers/Joel112003?label=FOLLOWERS&style=for-the-badge&color=FF006E&labelColor=0D1117" alt="followers"/>
-<img src="https://img.shields.io/github/stars/Joel112003?label=STARS&style=for-the-badge&color=7B2CBF&labelColor=0D1117" alt="stars"/>
-
-<br/><br/>
-
-<a href="https://github.com/Joel112003"><img src="https://img.shields.io/badge/%E2%86%92_PORTFOLIO-View_Live-FF006E?style=for-the-badge&labelColor=0D1117" alt="portfolio"/></a>
+<!-- ── PROFILE BADGES ── -->
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=Joel112003&label=Profile%20Views&color=1&icon=5&pretty=true" />
+</a>
 &nbsp;
-<a href="mailto:joelkunjumon75@gmail.com"><img src="https://img.shields.io/badge/%E2%9C%89_CONTACT-Email-00F0FF?style=for-the-badge&labelColor=0D1117" alt="contact"/></a>
+<a href="https://github.com/Joel112003?tab=followers">
+  <img src="https://img.shields.io/github/followers/Joel112003?label=Followers&style=flat&color=ffffff&labelColor=0d1117&logo=github" />
+</a>
 &nbsp;
-<a href="https://www.linkedin.com/in/joelkunjumon"><img src="https://img.shields.io/badge/%E2%9D%96_CONNECT-LinkedIn-7B2CBF?style=for-the-badge&labelColor=0D1117" alt="linkedin"/></a>
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-00ff88?style=flat&labelColor=0d1117" />
 
 <br/><br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="divider"/>
-
-</div>
-
-
-<!-- ══════════════════════ ABOUT ══════════════════════ -->
-
-<div align="center">
-
-# `01` &nbsp; ABOUT
-<sub><i>The signal behind the keyboard</i></sub>
+<!-- ── CTA BUTTONS ── -->
+<a href="https://github.com/Joel112003">
+  <img src="https://img.shields.io/badge/⬡%20Portfolio-000000?style=for-the-badge&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:joelkunjumon75@gmail.com">
+  <img src="https://img.shields.io/badge/✉%20Email%20Me-111111?style=for-the-badge" />
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/joelkunjumon">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
 </div>
 
 <br/>
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                      ABOUT ME                             -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=1&section=header" width="100%"/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  joel@terminal:~$ whoami                                      ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
 <table>
 <tr>
 <td width="55%" valign="top">
 
-```ts
+### The Engineer
+
+I'm a **full-stack MERN developer** with a pathological attention to UI detail — the kind of dev who loses sleep over a 2px misalignment and ships products that feel *engineered*, not assembled.
+
+I specialize in building **real-time applications**, **SaaS platforms**, and **animation-heavy frontends** that make users stop and notice. Every project starts from architecture, ends with polish.
+
+Currently pursuing my **MCA at Parul University**, working with **React + Vite, Node.js, Express, MongoDB, Redis, Socket.IO** — and obsessively exploring the space where clean code meets award-worthy design.
+
+<br/>
+
+**What I bring to the table:**
+- 🏗️ MVC-first backend architecture with JWT + Redis auth
+- ⚡ Provably fair game engines & real-time Socket.IO systems
+- 🎨 GSAP animation pipelines & Awwwards-level UI sensibility
+- 🔐 Security-hardened APIs (Helmet, rate limiting, XSS, NoSQL sanitization)
+- 📦 Production-ready deployment on Vercel, Render & AWS
+
+</td>
+<td width="45%" valign="top" align="center">
+
+<br/>
+
+```js
 const joel = {
-  role:      "Full-Stack Engineer",
-  focus:     "Motion · Architecture · UX",
-  building:  ["SaaS", "Dashboards", "AI Tools"],
-  stack:     ["React", "Node", "MongoDB", "GSAP", "Three.js"],
-  ethos:     "Pixel-precision frontends, systems that scale.",
+  role: "Full-Stack MERN Engineer",
+  location: "Vadodara, Gujarat 🇮🇳",
+  education: "MCA @ Parul University",
+  
+  currentlyBuilding: [
+    "🎰 VaultBet — Casino Platform",
+    "📹 MeetConnect — WebRTC App",
+  ],
+  
+  obsessions: [
+    "clean architecture",
+    "real-time systems",
+    "cinematic UI",
+    "Awwwards",
+  ],
+  
+  funFact: "I browse Awwwards for fun,",
+  realFunFact: "then play Clash Royale to recover",
 };
 ```
 
-I architect **clean MERN systems** and obsess over how an app *feels* in motion. I care about the small details — easing curves, layout rhythm, request waterfalls — because those are what separate a project from a product.
-
-Open to building **SaaS**, **dashboards**, **AI tools**, and **frontend-heavy apps** with serious craft.
-
-</td>
-<td width="45%" valign="top">
-
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" alt="coding"/>
-
 </td>
 </tr>
 </table>
 
 <br/>
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="900" alt="line"/>
-</div>
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                    CURRENTLY BUILDING                      -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
+<details>
+<summary><b>🔭 &nbsp;What I'm Building Right Now</b></summary>
+<br/>
 
-<!-- ══════════════════════ STACK ══════════════════════ -->
+| Project | Stack | Status | Description |
+|:---|:---|:---:|:---|
+| **VaultBet** — Casino Platform | React · Node · Redis · Socket.IO · MongoDB | 🟡 In Progress | Provably fair Dice, Crash, Mines, Roulette & Coin Flip with real-time crash events and a complete auth + wallet system |
+| **MeetConnect** — WebRTC Video App | React · Socket.IO · WebRTC · Node | 🟡 In Progress | P2P video calling with custom scheduling UI, meeting links, and a cinematic dark theme |
+| **WanderLust** — Airbnb-like Platform | MERN · Mapbox · Razorpay · Cloudinary | 🟢 Active | Full-featured travel listing platform with booking, maps, OAuth, and image uploads |
 
-<div align="center">
+</details>
 
-# `02` &nbsp; TECH STACK
-<sub><i>Tools I reach for when shipping serious work</i></sub>
+<br/>
 
-<br/><br/>
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                       TECH STACK                          -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+## ⚙️ &nbsp;Tech Stack
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=flat-square&logo=vite&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat-square&logo=SASS&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-%23593d88.svg?style=flat-square&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB)
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat-square&logo=socket.io&badgeColor=010101)
+![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens)
+
+**Database & Cache**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=flat-square&logo=mysql&logoColor=white)
+
+**Cloud & DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-%2346E3B7.svg?style=flat-square&logo=render&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white)
+
+**Animation & Creative**
+
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-F5788D.svg?style=flat-square&logo=chart.js&logoColor=white)
+
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                   FEATURED PROJECTS                        -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+## 🚀 &nbsp;Featured Projects
 
 <table>
 <tr>
-<td align="center" width="20%"><b>FRONTEND</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,tailwind,sass,redux&theme=dark" alt="frontend"/>
+<td width="50%" valign="top">
+
+### 🎰 VaultBet — Casino Platform
+> Full-stack virtual casino with provably fair game engines
+
+**Stack:** React · Vite · Node.js · Express · MongoDB · Redis · Socket.IO
+
+- 🎲 5 games: Dice, Crash, Mines, Coin Flip, Roulette
+- ⚡ Real-time Crash game via Socket.IO state machine
+- 🔐 JWT auth with Redis-backed token revocation
+- 🧮 HMAC-SHA256 provably fair session system
+- 🛡️ Helmet · NoSQL sanitization · XSS · Rate limiting
+
+[![Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Joel112003)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 📹 MeetConnect — WebRTC App
+> Peer-to-peer video calling with scheduling & real-time signaling
+
+**Stack:** React · Socket.IO · WebRTC · Node.js · Express
+
+- 🎥 P2P video/audio with WebRTC
+- 📅 Custom dark-theme `DateTimePicker` component
+- 🔗 Meeting link generation & dashboard cards
+- 🎨 Cinematic dark UI with smooth micro-interactions
+- 📡 Socket.IO signaling server architecture
+
+[![Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Joel112003)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
+
 </td>
 </tr>
 <tr>
-<td align="center"><b>BACKEND</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,graphql,prisma&theme=dark" alt="backend"/>
+<td width="50%" valign="top">
+
+### 🌍 WanderLust — Travel Platform
+> Full-featured Airbnb-like listing platform
+
+**Stack:** Node.js · Express · MongoDB · Mapbox · Razorpay · Cloudinary · Passport.js
+
+- 🗺️ Interactive Mapbox integration with DB geometry
+- 💳 Razorpay payment flow
+- ☁️ Cloudinary image management
+- 🔑 OAuth via Passport.js
+- 🧩 Multi-step listing creation form
+
+[![Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Joel112003)
+![Status](https://img.shields.io/badge/Status-Active-00ff88?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 💻 CodeDrop — Real-time Code Collaboration
+> codeshare.io-style editor with AI explanations
+
+**Stack:** React · Monaco Editor · Socket.IO · Node.js
+
+- ✏️ Real-time collaborative editing
+- 🤖 AI explanation modal for code
+- 📜 Version history
+- 🔒 Permission-based editing controls
+- 🎨 VS Code-inspired dark theme
+
+[![Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Joel112003)
+![Status](https://img.shields.io/badge/Status-Shipped-00ff88?style=flat-square)
+
 </td>
 </tr>
 <tr>
-<td align="center"><b>DATABASE</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis&theme=dark" alt="db"/>
-</td>
-</tr>
-<tr>
-<td align="center"><b>MOTION&nbsp;·&nbsp;3D</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=threejs&theme=dark" alt="3d"/>
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Lenis-000000?style=for-the-badge&logoColor=white"/>
-</td>
-</tr>
-<tr>
-<td align="center"><b>CLOUD&nbsp;·&nbsp;DEVOPS</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=aws,vercel,netlify,docker,githubactions&theme=dark" alt="cloud"/>
-</td>
-</tr>
-<tr>
-<td align="center"><b>TOOLS</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux,bash&theme=dark" alt="tools"/>
-</td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
-</div>
+### 🏥 Hospital Management System
+> Freelance project for a real client
 
-<br/>
+**Stack:** Java · Servlets · JSP · JDBC · JavaBeans
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="900" alt="line"/>
-</div>
+- 🏥 Full patient & appointment management
+- 🗃️ JDBC-based persistent data layer
+- 📋 MVC architecture with JSP views
+- ✅ Delivered for a real-world client
 
-
-<!-- ══════════════════════ PROJECTS ══════════════════════ -->
-
-<div align="center">
-
-# `03` &nbsp; FEATURED WORK
-<sub><i>Selected builds — engineering meets craft</i></sub>
-
-</div>
-
-<br/>
-
-<!-- PROJECT 01 -->
-<table>
-<tr>
-<td width="42%">
-  <img src="https://placehold.co/600x360/0D1117/00F0FF?text=01&font=raleway" width="100%" alt="project 1"/>
-</td>
-<td width="58%" valign="top">
-
-### **Project Name**
-<sub>`Live` · `Full-Stack` · `SaaS`</sub>
-
-A premium full-stack platform delivering [core value]. Motion-first UX, real-time data, scalable Node backend.
-
-`React` · `Node.js` · `MongoDB` · `GSAP` · `Tailwind`
-
-— Real-time updates &nbsp;·&nbsp; JWT auth &nbsp;·&nbsp; Stripe payments &nbsp;·&nbsp; Animated UI
-
-<br/>
-
-<a href="#"><img src="https://img.shields.io/badge/Live_Demo-%E2%86%97-00F0FF?style=for-the-badge&labelColor=0D1117"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Source-GitHub-7B2CBF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/></a>
+[![Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Joel112003)
+![Status](https://img.shields.io/badge/Status-Delivered-00ff88?style=flat-square)
 
 </td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
-<br/>
+### 📦 react-feedboard — npm Package
+> Feedback widget with screenshot capture & webhooks
 
-<!-- PROJECT 02 -->
-<table>
-<tr>
-<td width="58%" valign="top">
+**Stack:** React · npm
 
-### **Project Name**
-<sub>`In Progress` · `AI` · `SaaS`</sub>
+- 📸 In-browser screenshot capture
+- 🔔 Webhook delivery support
+- 🎛️ Embeddable React widget
+- 📬 Published on npm
 
-AI-powered [type] platform with cinematic UX, intelligent automation, and a clean modular architecture.
-
-`Next.js` · `Express` · `MongoDB` · `OpenAI` · `Three.js`
-
-— AI integration &nbsp;·&nbsp; 3D visuals &nbsp;·&nbsp; Analytics &nbsp;·&nbsp; Multi-tenant
-
-<br/>
-
-<a href="#"><img src="https://img.shields.io/badge/Live_Demo-%E2%86%97-00F0FF?style=for-the-badge&labelColor=0D1117"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Source-GitHub-7B2CBF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/></a>
-
-</td>
-<td width="42%">
-  <img src="https://placehold.co/600x360/0D1117/FF006E?text=02&font=raleway" width="100%" alt="project 2"/>
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- PROJECT 03 -->
-<table>
-<tr>
-<td width="42%">
-  <img src="https://placehold.co/600x360/0D1117/7B2CBF?text=03&font=raleway" width="100%" alt="project 3"/>
-</td>
-<td width="58%" valign="top">
-
-### **Project Name**
-<sub>`Live` · `Animation` · `Frontend`</sub>
-
-Frontend-heavy interactive experience pushing GSAP + Three.js into a real-world product flow.
-
-`React` · `GSAP` · `Three.js` · `Tailwind`
-
-— Scroll-driven motion &nbsp;·&nbsp; WebGL scenes &nbsp;·&nbsp; 60fps &nbsp;·&nbsp; Fully responsive
-
-<br/>
-
-<a href="#"><img src="https://img.shields.io/badge/Live_Demo-%E2%86%97-00F0FF?style=for-the-badge&labelColor=0D1117"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Source-GitHub-7B2CBF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/></a>
+[![npm](https://img.shields.io/badge/npm-Published-CC3534?style=flat-square&logo=npm&logoColor=white)](https://npmjs.com)
+![Status](https://img.shields.io/badge/Status-Published-00ff88?style=flat-square)
 
 </td>
 </tr>
@@ -239,141 +289,146 @@ Frontend-heavy interactive experience pushing GSAP + Three.js into a real-world 
 
 <br/>
 
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                  ROADMAP / CURRENT FOCUS                  -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+<details>
+<summary><b>🗺️ &nbsp;Roadmap — Where I'm Headed</b></summary>
+<br/>
+
+```
+Now ──────────────────────────────────────────────────────▶ Future
+
+[✅] MERN Stack Foundation          [🔄] System Design & Scalability
+[✅] JWT + Redis Auth Flows          [🔄] Microservices Architecture  
+[✅] Real-time Socket.IO Apps        [📐] Advanced DSA & LeetCode
+[✅] Provably Fair Game Engines      [🌐] Headless CMS & Next.js Apps
+[🔄] WebRTC Video Architecture       [☁️] AWS Production Deployments
+[🔄] Advanced React Patterns         [🤖] AI-integrated SaaS Products
+```
+
+</details>
+
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                    GITHUB ANALYTICS                        -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+## 📊 &nbsp;GitHub Analytics
+
 <div align="center">
-  <a href="https://github.com/Joel112003?tab=repositories">
-    <img src="https://img.shields.io/badge/%E2%86%92_All_Repositories-Explore-00F0FF?style=for-the-badge&labelColor=0D1117"/>
-  </a>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Joel112003&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=false&bg_color=0d1117&title_color=ffffff&text_color=888888&icon_color=ffffff" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel112003&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=888888" />
+
+<br/>
+
+<img src="https://nirzak-streak-stats.vercel.app/?user=Joel112003&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=888888&currStreakLabel=888888&sideLabels=888888&dates=444444" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Joel112003&bg_color=0d1117&color=888888&line=ffffff&point=ffffff&area=true&area_color=1a1a2e&hide_border=true" width="95%" />
+
 </div>
 
 <br/>
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="900" alt="line"/>
-</div>
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                   SNAKE CONTRIBUTION                       -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-
-<!-- ══════════════════════ FOCUS ══════════════════════ -->
-
-<div align="center">
-
-# `04` &nbsp; CURRENT FOCUS
-
-</div>
-
-<br/>
-
-<table align="center">
-<tr>
-<td align="center" width="33%" valign="top">
-
-### 🌱 &nbsp; LEARNING
-<sub>Pushing depth</sub>
-
-Advanced React Patterns  
-Node.js Architecture  
-MongoDB Performance
-
-</td>
-<td align="center" width="33%" valign="top">
-
-### ⚡ &nbsp; BUILDING
-<sub>Shipping forward</sub>
-
-Premium Portfolio  
-Full-Stack SaaS  
-Motion Systems
-
-</td>
-<td align="center" width="33%" valign="top">
-
-### 🔭 &nbsp; EXPLORING
-<sub>Looking ahead</sub>
-
-AI & LLM Integration  
-System Design  
-Open Source
-
-</td>
-</tr>
-</table>
-
-<br/>
+## 🐍 &nbsp;Contribution Snake
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="900" alt="line"/>
-</div>
-
-
-<!-- ══════════════════════ STATS ══════════════════════ -->
-
-<div align="center">
-
-# `05` &nbsp; STATS
-
-<br/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Joel112003&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=00F0FF&icon_color=FF006E&text_color=C9D1D9&bg_color=0D1117" alt="stats"/>
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Joel112003&hide_border=true&background=0D1117&stroke=7B2CBF&ring=00F0FF&fire=FF006E&currStreakLabel=00F0FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="streak"/>
-
-<br/><br/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel112003&layout=compact&hide_border=true&title_color=00F0FF&text_color=C9D1D9&bg_color=0D1117&langs_count=8" alt="langs"/>
-<img height="170" src="https://leetcard.jacoblin.cool/Joel2003?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=12" alt="leetcode"/>
-
-<br/><br/>
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Joel112003&bg_color=0D1117&color=00F0FF&line=FF006E&point=7B2CBF&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="activity"/>
-
-<br/><br/>
-
-### CONTRIBUTION SNAKE
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joel112003/Joel112003/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joel112003/Joel112003/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Joel112003/Joel112003/output/github-snake-dark.svg" />
 </picture>
 
+<!-- 
+  To enable the snake animation:
+  1. Create a repo named Joel112003/Joel112003
+  2. Add this GitHub Action workflow: https://github.com/Platane/snk
+  3. The SVG will auto-generate on each push
+-->
 </div>
 
 <br/>
 
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                  GITHUB TROPHIES                          -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="900" alt="line"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Joel112003&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7" width="95%" />
+
 </div>
 
+<br/>
 
-<!-- ══════════════════════ CONNECT ══════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                   QUOTE SECTION                           -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-# `06` &nbsp; LET'S CONNECT
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
 
-<sub><i>Open to collaborations, freelance, and serious product conversations</i></sub>
+</div>
 
-<br/><br/>
+<br/>
 
-<a href="mailto:joelkunjumon75@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://www.linkedin.com/in/joelkunjumon"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://github.com/Joel112003"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://leetcode.com/u/Joel2003/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://instagram.com/dietcokeesexual"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://in.pinterest.com/Joel112003/"><img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white&labelColor=0D1117"/></a>
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                   CONNECT / CONTACT                       -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<br/><br/>
+## 🤝 &nbsp;Let's Connect
 
+<div align="center">
+
+<a href="https://linkedin.com/in/joelkunjumon">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
 <a href="mailto:joelkunjumon75@gmail.com">
-<img src="https://img.shields.io/badge/%E2%86%92_OPEN_TO_OPPORTUNITIES-Let's_build_something_great-FF006E?style=for-the-badge&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://instagram.com/dietcokeesexual">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://in.pinterest.com/Joel112003/">
+  <img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/Joel112003">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
+<br/><br/>
+
+> **Open to:** Full-time roles · Freelance · Collaborations · Interesting conversations
+
 </div>
-
-
-<!-- ══════════════════════ FOOTER ══════════════════════ -->
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF006E,50:7B2CBF,100:00F0FF&height=140&section=footer&text=Built%20with%20craft%20%E2%97%87%20Shipped%20with%20care&fontSize=20&fontColor=ffffff&animation=twinkling&fontAlignY=70" width="100%" alt="footer"/>
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                       FOOTER                              -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<div align="center">
-<sub><code>// signed, Joel Kunjumon</code> &nbsp;·&nbsp; <code>see you in the next deploy ↗</code></sub>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:0d1117&height=120&section=footer&text=Built%20with%20passion%2C%20caffeine%2C%20and%20chaos&fontSize=14&fontColor=444444&animation=fadeIn&fontAlignY=65" width="100%" />
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--  CUSTOMIZATION NOTES:                                          -->
+<!--  1. Replace portfolio URL in CTA buttons (search [YOUR_*])     -->
+<!--  2. Add project live demo URLs in Featured Projects table      -->
+<!--  3. Set up the snake workflow: github.com/Platane/snk          -->
+<!--  4. Update Instagram handle if needed                          -->
+<!--  5. Add Leetcode badge if you start practicing there           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
