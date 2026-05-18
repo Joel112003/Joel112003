@@ -1,14 +1,4 @@
-New palette: #FF0080 (electric pink) · #7928CA (royal violet) · #0070F3 (electric blue) · #00DC82 (aurora green) on pure black — the signature Vercel/Linear gradient that screams premium.
 
-<!-- ╔══════════════════════════════════════════════════════════════════════╗
-     ║   JOEL KUNJUMON · GITHUB PROFILE                                     ║
-     ║   Palette: #FF0080 · #7928CA · #0070F3 · #00DC82 · #000000           ║
-     ║   Style:   Premium · Cinematic · Awwwards-grade                      ║
-     ║   Edit:    look for // EDIT                                          ║
-     ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-
-<!-- ═══════════════════ HERO ═══════════════════ -->
 
 <div align="center">
 
