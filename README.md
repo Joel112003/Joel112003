@@ -258,7 +258,6 @@ Frontend-heavy interactive experience pushing GSAP and Three.js into a real-worl
   <tr>
     <td align="center" width="33%" valign="top">
 
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="60" alt="learn"/>
 
 ### LEARNING
 <sub><i>Going deeper</i></sub>
@@ -270,7 +269,6 @@ MongoDB Performance
 </td>
     <td align="center" width="33%" valign="top">
 
-<img src="https://user-images.githubusercontent.com/74038190/216122003-d18e1c25-7e21-4cc0-b5dd-77d4d4d8a18b.png" width="60" alt="build"/>
 
 ### BUILDING
 <sub><i>Shipping forward</i></sub>
@@ -312,17 +310,23 @@ Open Source
 
 <br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Joel112003&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=FF0080&icon_color=00DC82&text_color=FAFAFA&bg_color=000000" alt="stats"/>
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=Joel112003&hide_border=true&background=000000&stroke=7928CA&ring=FF0080&fire=00DC82&currStreakLabel=FF0080&sideLabels=FAFAFA&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="streak"/>
+<!-- Streak (centered, hero stat) -->
+<img height="200" src="https://github-readme-streak-stats.herokuapp.com?user=Joel112003&hide_border=true&background=000000&stroke=7928CA&ring=FF0080&fire=00DC82&currStreakLabel=FF0080&sideLabels=FAFAFA&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E"/>
 
 <br/><br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joel112003&layout=compact&hide_border=true&title_color=FF0080&text_color=FAFAFA&bg_color=000000&langs_count=8" alt="langs"/>
-<img height="180" src="https://leetcard.jacoblin.cool/Joel2003?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=12" alt="leetcode"/>
+<!-- Profile summary cards — clean unified look -->
+<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Joel112003&theme=github_dark" alt="summary"/>
 
 <br/><br/>
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Joel112003&bg_color=000000&color=FF0080&line=00DC82&point=7928CA&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="activity"/>
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Joel112003&theme=github_dark&hide_title=true" alt="lang repos"/>
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Joel112003&theme=github_dark&hide_title=true" alt="lang commits"/>
+
+<br/><br/>
+
+<!-- Activity Graph -->
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Joel112003&bg_color=000000&color=FF0080&line=00DC82&point=7928CA&area=true&hide_border=true&custom_title=Contribution%20Activity"/>
 
 <br/><br/>
 
@@ -333,12 +337,6 @@ Open Source
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="snake"/>
 </picture>
 
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="line"/>
 </div>
 
 
